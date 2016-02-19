@@ -9,14 +9,12 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1vmin;
 }
 
 body {
   background-color: black;
   height: 140em;
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
 }
 .overLord {
   margin: 0;
@@ -28,10 +26,18 @@ header {
   height: 50vh;
   margin: 25px;
   background-color: white;
+  background-image: url("../img/darnassus.jpg");
+  background-position: center;
+  background-size: auto;
 }
 nav {
+  background-color: white;
+  padding-bottom: 10px;
+}
+nav li {
   text-decoration: none;
   list-style: none;
+  display: inline-block;
 }
 /*main, section {
   width: 95%;
