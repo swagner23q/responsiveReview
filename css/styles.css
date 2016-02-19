@@ -148,11 +148,15 @@ nav a {
     background-color: #1E231F;
     color: #999;
   }
+  .features2:hover {
+    background-color: black;
+  }
   .featuredPress {
     font-size: 20px;
     float: left;
     width: 100%;
   }
+
   .caret {
     display: none;
   }
