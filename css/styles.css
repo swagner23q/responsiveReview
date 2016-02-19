@@ -41,6 +41,7 @@ main {
   background-position: center;
   background-size: auto;
   position: relative;
+  margin-top: 40px;
 }
 nav {
   position: relative;
@@ -69,7 +70,7 @@ nav a {
 }
 .locationHead {
   position: relative;
-  bottom: 15px;
+  bottom: 57px;
 }
 
 .features, .features2, .textContent {
@@ -84,6 +85,9 @@ nav a {
 }
 
 @media screen and (min-width:610px) {
+  body {
+    background-color: white;
+  }
   .overLord {
     margin: 0;
   }
@@ -109,9 +113,11 @@ nav a {
   }
   main {
     height: 55vh;
+    margin-top: 0;
   }
   .locationHead {
     float: left;
+    clear: both;
     top: 330px;
     left: 8%;
     background: rgba(0, 0, 0, 0);
@@ -130,6 +136,8 @@ nav a {
   }
   .textContent {
     float: right;
+    background-color: black;
+    color: white;
   }
 
   .features2 {
@@ -137,6 +145,8 @@ nav a {
     text-align: center;
     padding-top: 40px;
     float: left;
+    background-color: #1E231F;
+    color: #999;
   }
   .featuredPress {
     font-size: 20px;
@@ -151,18 +161,32 @@ nav a {
   }
 }
 
-/*@media screen and (min-width:1040px) {
-  header {
-    float: left;
-    height: 96vh;
-    width: 68%;
+@media screen and (min-width:1040px) {
 
+  .overLord {
+    clear: both;
   }
 
-  main, section {
-    float: right;
-    height: 47.5vh;
-    width: 28%;
+  main {
+    height: 100vh;
+    width: 70vw;
+    margin: 0;
+  }
+  .locationHead {
+    top: 650px;
+    left: 5%;
+  }
 
-  }*/
-}
+  .features2, .textContent {
+    padding-top: 10%;
+    float: right;
+    height: 50vh;
+    width: 29%;
+    clear: both;
+    margin-bottom: 0;
+  }
+  .featuresContainer {
+    position: absolute;
+    bottom: 1em;
+    height: 100%;
+  }
