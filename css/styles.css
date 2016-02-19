@@ -5,3 +5,64 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1vmin;
+}
+
+body {
+  background-color: black;
+  height: 140em;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+.overLord {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /*width: 95vw;*/
+  height: 50vh;
+  margin: 25px;
+  background-color: white;
+}
+nav {
+  text-decoration: none;
+  list-style: none;
+}
+/*main, section {
+  width: 95%;
+  height: 22%;
+  margin: 10px 10px 0;
+  background-color: yellow;
+}*/
+
+@media screen and (min-width:740px) {
+  header {
+    height: 60vh;
+  }
+  main, section {
+    display: inline-block;
+    max-width: 46%;
+    height: 37vh;
+  }
+}
+
+/*@media screen and (min-width:1040px) {
+  header {
+    float: left;
+    height: 96vh;
+    width: 68%;
+
+  }
+
+  main, section {
+    float: right;
+    height: 47.5vh;
+    width: 28%;
+
+  }*/
+}
