@@ -17,26 +17,35 @@ body {
   font-family: 'Overlock', cursive;
 }
 .overLord {
-  margin: 0;
+  margin: 20px;
   padding: 0;
+  color: white;
 }
+
 h3 {
-  padding-left: 10px;
   background-color: white;
-  padding: 10px;
+  padding: 10px 0 10px 10px;
+  color: black;
 }
-header {
+
+main {
   /*width: 95vw;*/
-  height: 50vh;
-  margin: 25px;
+  height: 40vh;
   background-color: white;
   background-image: url("../img/darnassus2.jpg");
   background-position: center;
   background-size: auto;
+  position: relative;
 }
 nav {
+  position: relative;
+  bottom: 19px;
   background-color: #adb5da;
   text-align: left;
+  padding-left: 5px;
+}
+nav ul {
+  padding: 5px;
 }
 nav li {
   list-style: none;
@@ -45,24 +54,36 @@ nav li {
 
 nav a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
+  color: #8A1CD7;
+  padding-right: 4px;
 }
-/*main, section {
-  width: 95%;
+.location {
+  font-size: 150%;
+  float: left;
+}
+.locationHead {
+  position: relative;
+  bottom: 15px;
+}
+
+.features, .features2, .textContent {
   height: 22%;
-  margin: 10px 10px 0;
-  background-color: yellow;
-}*/
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
 
 @media screen and (min-width:740px) {
   header {
-    height: 60vh;
+    height: 90vh;
   }
-  main, section {
+  /*.features, .textContent {
     display: inline-block;
     max-width: 46%;
     height: 37vh;
-  }
+  }*/
 }
 
 /*@media screen and (min-width:1040px) {
