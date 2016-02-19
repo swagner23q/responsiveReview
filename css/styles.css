@@ -11,12 +11,16 @@ html, body {
   box-sizing: border-box;
 }
 .hover {
-  cursor: pointer;
+  cursor: url("../img/WoWHover.cur"), hover;
+}
+a:hover {
+  cursor: url("../img/WoWHover.cur"), hover;
 }
 body {
   background-color: black;
   height: 50em;
   font-family: 'Overlock', cursive;
+  cursor: url("../img/WoW.cur"), default;
 }
 .overLord {
   margin: 20px;
@@ -127,11 +131,7 @@ nav a {
   .textContent {
     float: right;
   }
-  .featuresContainer {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+
   .features2 {
     font-size: 2em;
     text-align: center;
