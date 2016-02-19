@@ -10,10 +10,12 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
-
+.hover {
+  cursor: pointer;
+}
 body {
   background-color: black;
-  height: 140em;
+  height: 50em;
   font-family: 'Overlock', cursive;
 }
 .overLord {
@@ -29,7 +31,6 @@ h3 {
 }
 
 main {
-  /*width: 95vw;*/
   height: 40vh;
   background-color: white;
   background-image: url("../img/darnassus2.jpg");
@@ -74,16 +75,80 @@ nav a {
   margin-bottom: 10px;
   padding: 15px 20px;
 }
+.darnIcon {
+  display: none;
+}
 
-@media screen and (min-width:740px) {
-  header {
-    height: 90vh;
+@media screen and (min-width:610px) {
+  .overLord {
+    margin: 0;
   }
-  /*.features, .textContent {
+  header {
+    position: absolute;
+    height: 165px;
+    width: 175px;
+    z-index: 1;
+    top: 33px;
+    left: 50px;
+  }
+  nav li {
+    display: block;
+    width: 100%;
+  }
+  nav ul, h3 {
+    padding-left: 20px;
+
+  }
+  nav, h3 {
+    background-color: white;
+    opacity: 0.8;
+  }
+  main {
+    height: 55vh;
+  }
+  .locationHead {
+    float: left;
+    top: 330px;
+    left: 8%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+  }
+  .features {
+    display: none;
+  }
+  .features2, .textContent {
     display: inline-block;
-    max-width: 46%;
-    height: 37vh;
-  }*/
+    width: 49vw;
+    height: 40vh;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .textContent {
+    float: right;
+  }
+  .featuresContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .features2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40px;
+    float: left;
+  }
+  .featuredPress {
+    font-size: 20px;
+    float: left;
+    width: 100%;
+  }
+  .caret {
+    display: none;
+  }
+  .darnIcon {
+    display: inline;
+  }
 }
 
 /*@media screen and (min-width:1040px) {
