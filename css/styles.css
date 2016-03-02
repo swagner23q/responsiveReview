@@ -35,11 +35,13 @@ h3 {
 }
 
 main {
-  height: 40vh;
   background-color: white;
   background-image: url("../img/darnassus2.jpg");
   background-position: center;
-  background-size: auto;
+  background-repeat: no-repeat;
+  height: 30vh;
+  max-width: 100%;
+  background-size: cover;
   position: relative;
   margin-top: 40px;
 }
@@ -128,7 +130,7 @@ nav a {
   }
   .features2, .textContent {
     display: inline-block;
-    width: 49vw;
+    width: 48vw;
     height: 50vh;
     float: left;
     margin-top: 10px;
@@ -169,6 +171,7 @@ nav a {
 
   .overLord {
     clear: both;
+    width: 100%;
   }
 
   main {
