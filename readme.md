@@ -7,8 +7,6 @@ This is a project for week two of CSS at Epicodus. It includes languages **HTML 
 
 ~~
 
-The program used to create this project is Atom, Git, and Terminal.
-
 The program used to create this project is ***Atom, Git, and Terminal***.
 
 To setup locally, git clone~ https://github.com/swagner23q/responsiveReview.git
